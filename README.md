@@ -49,6 +49,8 @@
     Setting port & Mountpoint
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step10.png)
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step11.png)
+* * *
+    The Base Station is working now
 
 
 
