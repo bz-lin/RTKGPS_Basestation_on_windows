@@ -4,10 +4,14 @@
 
 ## Base Station
 * Install u-center 
-* setup your antenna 
+* setup antenna 
 * Setting u-center
 
 ### Install u-center 
 [u-center](https://www.u-blox.com/en/product/u-center)
 This software only for windows
+
+### setup antenna
+    
+    
     
