@@ -43,6 +43,16 @@
     It readly to send RTCM3 message now
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step8.png)
 
+    Enable the NTRIP Server
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step9.png)
+
+    Setting port & Mountpoint
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step10.png)
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step11.png)
+
+
+
+
 
     
     
