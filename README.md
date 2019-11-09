@@ -29,5 +29,7 @@
     Select port & Baudrate
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step2.png)
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step3.png)
+
+    View->MessageView
     
     
