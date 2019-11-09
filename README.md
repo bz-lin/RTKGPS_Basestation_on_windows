@@ -6,6 +6,7 @@
 * Install u-center 
 * setup antenna 
 * Setting u-center
+* * *
 
 ### Install u-center 
 [u-center](https://www.u-blox.com/en/product/u-center)
