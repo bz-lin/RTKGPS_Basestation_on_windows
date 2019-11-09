@@ -18,8 +18,6 @@
     Ensure nothing block the antenna,It should in open space
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/DSC_0081.JPG)
     
-    
-    
 * * *
 
 ### u-center configure
@@ -40,6 +38,10 @@
     View->MessageView->UBX->CFG->TMODE3
     Ensure click the send to send your configure
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step7.png)
+
+    View->MessageView->UBX->NAV->SVIN
+    It readly to send RTCM3 message now
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step8.png)
 
 
     
