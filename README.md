@@ -11,7 +11,8 @@
 
 ### Install u-center 
 [u-center](https://www.u-blox.com/en/product/u-center)
-This software only for windows
+    This software only for windows
+* * *
 
 ### setup antenna
     
