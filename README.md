@@ -37,6 +37,11 @@
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step5.png)
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step6.png)
 
+    View->MessageView->UBX->CFG->TMODE3
+    Ensure click the send to send your configure
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step7.png)
+
+
     
     
     
