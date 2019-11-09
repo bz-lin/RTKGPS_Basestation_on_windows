@@ -6,7 +6,7 @@
 ## Base Station
 * Install u-center 
 * setup antenna 
-* Setting u-center
+* u-center configure
 * * *
 
 ### Install u-center 
@@ -15,10 +15,12 @@
 * * *
 
 ### setup antenna
-![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/DSC_0081.JPG)
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/DSC_0081.JPG)
     
     
     Ensure nothing block the antenna,It should in open space
 * * *
+
+### u-center configure
     
     
