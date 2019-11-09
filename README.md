@@ -8,5 +8,5 @@
 * Setting u-center
 
 ### Install u-center on your PC
-    [This software only for windows](https://www.u-blox.com/en/product/u-center)
+[This software only for windows](https://www.u-blox.com/en/product/u-center)
     
