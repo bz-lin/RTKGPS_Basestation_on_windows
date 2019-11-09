@@ -22,5 +22,7 @@
 * * *
 
 ### u-center configure
+    click the default button and start to setting
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step1.png)
     
     
