@@ -3,8 +3,7 @@
 
 
 ## Base Station
-    -----
-    |    |   
-    |    |
-    |    |
-    -----
+    *Install u-center on your PC (only for windows)
+    *setup your antenna on a good position
+    *Setting u-center
+    
