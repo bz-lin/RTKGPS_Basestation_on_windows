@@ -31,5 +31,12 @@
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step3.png)
 
     View->MessageView
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step4.png)
+
+    Disable NMEA message & Enable UBX message
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step5.png)
+![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step6.png)
+
+    
     
     
