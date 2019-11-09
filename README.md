@@ -18,4 +18,6 @@
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/DSC_0081.JPG)
     
     
+    Ensure nothing block the antenna,It should in open space
+    
     
