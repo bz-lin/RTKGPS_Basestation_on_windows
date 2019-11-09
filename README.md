@@ -1,5 +1,5 @@
 # RTKGPS
-    bluid base station and rover with neo-m8p-2-11 moudle
+    bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 * * *
 
 
