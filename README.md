@@ -3,11 +3,11 @@
 
 
 ## Base Station
-* Install u-center on your PC
-* setup your antenna on a good position
+* Install u-center 
+* setup your antenna 
 * Setting u-center
 
-### Install u-center on your PC
+### Install u-center 
 [u-center](https://www.u-blox.com/en/product/u-center)
 This software only for windows
     
