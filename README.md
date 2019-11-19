@@ -22,7 +22,7 @@ bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 ### u-center configure:
 1.  click the default button and start to setting:
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step1.png)
-* * *
+
 
 2.  Select port & Baudrate:
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step2.png)
