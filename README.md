@@ -86,6 +86,17 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
     ~$git clone https://github.com/kivy/kivy
     ~$cd kivy
     ~/kivy$pip3 install .
+    
+5.Setting official Pi touchscreen:
+
+    ~$vi ./kivy/config.ini
+
+   find [input] and add 2line:
+    
+    mtdev_%(name)s = probesysfs,provider=mtdev
+    hid_%(name)s = probesysfs,provider=hidinput
+    
+    
 
     
 
