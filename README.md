@@ -54,7 +54,7 @@
 * * *
 ## Rover
 * raspberry setup 
-** test
+* * test
 * antenna setup 
 * appearance setup
 
