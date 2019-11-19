@@ -53,9 +53,10 @@
     The Base Station is working now
 * * *
 ## Rover
-* Install u-center 
-* setup antenna 
-* u-center configure
+* raspberry setup 
+** test
+* antenna setup 
+* appearance setup
 
 
 
