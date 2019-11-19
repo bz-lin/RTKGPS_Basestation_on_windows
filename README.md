@@ -60,7 +60,7 @@
 * antenna setup 
 * appearance setup
 
-### raspbian stretch install & configure
+### raspbian stretch install & configure:
 You can download image file from [stretch](http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/) 
     
 
