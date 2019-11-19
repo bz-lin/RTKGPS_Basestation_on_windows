@@ -51,6 +51,11 @@
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step11.png)
 * * *
     The Base Station is working now
+* * *
+## Rover
+* Install u-center 
+* setup antenna 
+* u-center configure
 
 
 
