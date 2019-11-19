@@ -63,20 +63,29 @@
 ### Raspbian stretch install & configure:
 You can download image file from [stretch](http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/)
 
-### Install kivy for python3
+### Install kivy for python3:
 1.Update for raspberry:
 
-    sudo apt update
+    $sudo apt update
     
 2.Install for raspberry:
 
-    sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
+    $sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
       pkg-config libgl1-mesa-dev libgles2-mesa-dev \
       python-setuptools libgstreamer1.0-dev git-core \
       gstreamer1.0-plugins-{bad,base,good,ugly} \
       gstreamer1.0-{omx,alsa} python-dev libmtdev-dev \
       xclip xsel libjpeg-dev
- 
+3.Install moudle for python3:
+    
+    $pip3 install setuptools
+    $pip3 install Cython
+    
+4.Install kivy for python3:
+    
+    ~$git clone https://github.com/kivy/kivy
+    ~$cd kivy
+    ~/kivy$pip3 install .
 
     
 
