@@ -31,29 +31,36 @@ bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step3.png)
 
 3.  View->MessageView:
+
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step4.png)
 
 4.  Disable NMEA message & Enable UBX message:
+
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step5.png)
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step6.png)
 
 5.  View->MessageView->UBX->CFG->TMODE3
     Ensure click the send to send your configure
+    
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step7.png)
 
 6.  View->MessageView->UBX->NAV->SVIN
     It readly to send RTCM3 message now
+    
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step8.png)
 
 7.  Enable the NTRIP Server:
+
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step9.png)
 
 8.  Setting port & Mountpoint:
+
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step10.png)
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/u-center-step11.png)
 * * *
     The Base Station is working now
 * * *
+
 ## Rover
 * Raspberry setup 
     * Raspbian stretch install & configure
