@@ -95,7 +95,13 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
     
         mtdev_%(name)s = probesysfs,provider=mtdev
         hid_%(name)s = probesysfs,provider=hidinput
+6.  Use example to test:
+        
+        ~$python3 kivy/examples/demo/showcase/main.py
+        
+        
     
+        
     
 
     
