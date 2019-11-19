@@ -1,4 +1,4 @@
-# RTKGPS
+# RTKGPS #
 bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 * * *
 
@@ -10,12 +10,11 @@ bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 * * *
 
 ### Install u-center: 
->[u-center](https://www.u-blox.com/en/product/u-center)
->This software for windows only
+>[u-center](https://www.u-blox.com/en/product/u-center)This software for windows only
 * * *
 
 ### setup antenna:
--   Ensure nothing block the antenna,It should in open space
+>Ensure nothing block the antenna,It should in open space
 ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/DSC_0081.JPG)
     
 * * *
