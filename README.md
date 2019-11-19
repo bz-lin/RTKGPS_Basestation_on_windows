@@ -64,10 +64,12 @@
 You can download image file from [stretch](http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/)
 
 ### Install kivy for python3
-1.Install for raspberry:
+1.Update for raspberry:
 
     sudo apt update
     
+2.Install for raspberry:
+
     sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
       pkg-config libgl1-mesa-dev libgles2-mesa-dev \
       python-setuptools libgstreamer1.0-dev git-core \
