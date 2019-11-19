@@ -10,8 +10,8 @@ bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 * * *
 
 ### Install u-center: 
--   [u-center](https://www.u-blox.com/en/product/u-center)
-    This software for windows only
+>[u-center](https://www.u-blox.com/en/product/u-center)
+>This software for windows only
 * * *
 
 ### setup antenna:
