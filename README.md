@@ -98,6 +98,8 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
 6.  Use example to test:
         
         ~$python3 kivy/examples/demo/showcase/main.py
+    ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/rover1.png)
+        
         
         
     
