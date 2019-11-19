@@ -61,7 +61,7 @@
 * appearance setup
 
 ### raspbian stretch install & configure
-    You can download image file from [u-center](https://www.u-blox.com/en/product/u-center) 
+You can download image file from [u-center](https://www.u-blox.com/en/product/u-center) 
     
 
 
