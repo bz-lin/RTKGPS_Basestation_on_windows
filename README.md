@@ -54,7 +54,9 @@
 * * *
 ## Rover
 * raspberry setup 
-    * test
+    * raspbian stretch install & configure
+    * install kivy for python3 
+    * touchscreen setup
 * antenna setup 
 * appearance setup
 
