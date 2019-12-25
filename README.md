@@ -134,6 +134,12 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
 >Example
 
         (base)C:\Users\user.user>conda activate pygui
+ 
+4.  Install kivy
+
+        (pygui)C:\Users\user.user>pip install kivy==1.11.1
+        
+        (pygui)C:\Users\user.user>pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
 
        
         
