@@ -119,6 +119,7 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
 >https://www.anaconda.com/distribution/
 
 2.  Create virtaul enviroment
+
 >lanuch anaconda prompt
 
         (base)C:\Users\user.user>conda create --name ENVIRONMENT python=MAIN.MINOR.PATCH
