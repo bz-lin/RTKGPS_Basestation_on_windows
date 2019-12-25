@@ -120,18 +120,18 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
 
 2.  Create virtaul enviroment
 
->lanuch anaconda prompt
+    >lanuch anaconda prompt
 
         (base)C:\Users\user.user>conda create --name ENVIRONMENT python=MAIN.MINOR.PATCH
         
->Example
+    >Example
         
         (base)C:\Users\user.user>conda create --name pygui python=3.5
     
 3.  Activate virtaul enviroment
 
         (base)C:\Users\user.user>conda activate ENVIRONMENT        
->Example
+    >Example
 
         (base)C:\Users\user.user>conda activate pygui
  
