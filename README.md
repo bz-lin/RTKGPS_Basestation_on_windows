@@ -114,7 +114,7 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
     more detail for [kivy](https://github.com/kivy)
     
 * * *
-### Install kivy for python3 on Windows10:
+### Install kivy for python3 on Windows10 for Development 
         
         
         
