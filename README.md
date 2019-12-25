@@ -74,7 +74,7 @@ The Base Station is working now
 ### Raspbian stretch install & configure:
 You can download image file from [stretch](http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/)
 
-### Install kivy for python3:
+### Install kivy for python3 on raspbian:
 1.  Update for raspberry:
 
         $sudo apt update
@@ -112,6 +112,7 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
     ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/rover1.png)
     
     more detail for [kivy](https://github.com/kivy)
+### Install kivy for python3 on raspbian:
         
         
         
