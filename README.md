@@ -112,6 +112,8 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
     ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/rover1.png)
     
     more detail for [kivy](https://github.com/kivy)
+    
+* * *
 ### Install kivy for python3 on Windows10:
         
         
