@@ -118,6 +118,9 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
 1.  Install Anaconda:
 >https://www.anaconda.com/distribution/
 
+2.  Create virtaul enviroment
+>lanuch anaconda powershell
+
        
         
         
