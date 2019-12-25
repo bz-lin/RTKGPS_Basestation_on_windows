@@ -116,8 +116,9 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
 * * *
 ### Install kivy for python3 on Windows10 for Development 
 1.  Install Anaconda:
+>https://www.anaconda.com/distribution/
 
-        $sudo apt update
+       
         
         
         
