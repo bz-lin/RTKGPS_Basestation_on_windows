@@ -130,7 +130,10 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
     
 3.  Activate virtaul enviroment
 
-        (base)C:\Users\user.user>conda activate ENVIRONMENT
+        (base)C:\Users\user.user>conda activate ENVIRONMENT        
+>Example
+
+        (base)C:\Users\user.user>conda activate pygui
 
        
         
