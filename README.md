@@ -121,7 +121,7 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
 2.  Create virtaul enviroment
 >lanuch anaconda prompt
 
-    ~$vi ./kivy/config.ini
+    ~$conda create --name ENVIRONMENT python=MAIN.MINOR.PATCH
 
        
         
