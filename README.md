@@ -1,4 +1,4 @@
-# Setup RTKGPS by ublox neo-m8p-2-11 #
+# Setup RTKGPS use ublox neo-m8p-2-11 #
 bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 * * *
 
