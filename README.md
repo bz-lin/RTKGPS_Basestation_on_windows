@@ -63,7 +63,7 @@ bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 The Base Station is working now
 * * *
 
-## Rover
+## Monitor
 * Raspberry setup 
     * Raspbian stretch install & configure
     * Install kivy for python3 
