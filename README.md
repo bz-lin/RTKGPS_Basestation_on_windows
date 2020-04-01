@@ -112,6 +112,16 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
     ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/rover1.png)
     
     more detail for [kivy](https://github.com/kivy)
+### Disable screen sleep:
+Change config:
+
+        ~$sudo nano /etc/lightdm/lightdm.conf
+        
+Add the following lines to the [SeatDefaults] section:
+
+        # don't sleep the screen
+        xserver-command=X -s 0 dpms
+
     
 * * *
 ### Install kivy for python3 on Windows10 for Development 
