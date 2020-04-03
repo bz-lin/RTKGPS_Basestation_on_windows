@@ -148,6 +148,8 @@ Add the following lines to the [SeatDefaults] section:
     >Example
 
         (base)C:\Users\user.user>conda activate pygui
+        
+*.  Copy eniroment
  
 4.  Install kivy version=1.11.1
 
