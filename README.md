@@ -140,7 +140,7 @@ Add the following lines to the [SeatDefaults] section:
     
     >Remove Example
     
-        (base)C:\Users\user.user>conda env remove -n pygui
+        (base)C:\Users\user.user>conda remove --name pygui --all
     
 3.  Activate virtaul enviroment
 
