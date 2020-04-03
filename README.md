@@ -134,9 +134,13 @@ Add the following lines to the [SeatDefaults] section:
 
         (base)C:\Users\user.user>conda create --name ENVIRONMENT python=MAIN.MINOR.PATCH
         
-    >Example
+    >Create Example
         
         (base)C:\Users\user.user>conda create --name pygui python=3.5
+    
+    >Remove Example
+    
+        (base)C:\Users\user.user>conda env remove -n pygui
     
 3.  Activate virtaul enviroment
 
