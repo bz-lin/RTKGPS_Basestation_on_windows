@@ -149,14 +149,32 @@ Add the following lines to the [SeatDefaults] section:
 
         (base)C:\Users\user.user>conda activate pygui
         
-*.  Copy eniroment
+
  
 4.  Install kivy version=1.11.1
 
         (pygui)C:\Users\user.user>pip install kivy==1.11.1
         (pygui)C:\Users\user.user>pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
         
-5.  Test kivy
+5.  Enviroment Copy
+    
+    >Backup enviroment CMD
+    
+        conda env export --name ENVIRONMENT --file ENVIRONMENT.yml
+        
+    >Example
+    
+        conda env export --name pygui --file pygui.yml
+    
+    >Recovery enviroment CMD
+    
+        conda env create --file ENVIRONMENT.yml --name ENVIRONMENT
+    
+    >Example
+        
+        conda env create --file pygui.yml --name pygui
+        
+6.  Test kivy
         >https://github.com/kivy/kivy
 
        
