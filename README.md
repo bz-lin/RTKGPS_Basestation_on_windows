@@ -142,7 +142,7 @@ Add the following lines to the [SeatDefaults] section:
         
     >Create Example
         
-        (base)C:\Users\user.user>conda create --name pygui python=3.5
+        (base)C:\Users\user.user>conda create --name pygui python=3.7.3
     
     >Remove Example
     
