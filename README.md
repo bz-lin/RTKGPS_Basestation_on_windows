@@ -72,7 +72,7 @@ The Base Station is working now
 * Appearance setup
 
 ### Raspbian stretch install & configure:
-You can download image file from [stretch](http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/)
+You can download image file from [Buster](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
 ### Install kivy for python3 on raspbian:
 1.  Update for raspberry:
@@ -97,10 +97,11 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
         $pip3 install setuptools
         $pip3 install Cython
     
-5.  Install kivy for python3:
-    
-        ~$git clone https://github.com/kivy/kivy
-        ~$cd kivy
+5.  Install kivy1.11.1 for python3:
+         
+        ~$wget https://kivy.org/downloads/1.11.1/Kivy-1.11.1.tar.gz
+        ~$tar -xvaf Kivy-1.11.1.tar.gz
+        ~$cd kivy-1.11.1
         ~/kivy$pip3 install .
     
 6.  Setting official Pi touchscreen:
