@@ -87,18 +87,23 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
         gstreamer1.0-plugins-{bad,base,good,ugly} \
         gstreamer1.0-{omx,alsa} python-dev libmtdev-dev \
         xclip xsel libjpeg-dev
-3.  Install moudle for python3:
+        
+3.  Additional install SDL2:
+        
+        $sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
+        
+4.  Install moudle for python3:
     
         $pip3 install setuptools
         $pip3 install Cython
     
-4.  Install kivy for python3:
+5.  Install kivy for python3:
     
         ~$git clone https://github.com/kivy/kivy
         ~$cd kivy
         ~/kivy$pip3 install .
     
-5.  Setting official Pi touchscreen:
+6.  Setting official Pi touchscreen:
 
         ~$vi ./kivy/config.ini
 
@@ -106,7 +111,7 @@ You can download image file from [stretch](http://downloads.raspberrypi.org/rasp
     
         mtdev_%(name)s = probesysfs,provider=mtdev
         hid_%(name)s = probesysfs,provider=hidinput
-6.  Use example to test:
+7.  Use example to test:
         
         ~$python3 kivy/examples/demo/showcase/main.py
     ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/rover1.png)
