@@ -72,7 +72,21 @@ The Base Station is working now
 * Appearance setup
 
 ### Raspbian stretch install & configure:
-You can download image file from [Buster](https://downloads.raspberrypi.org/raspbian_lite_latest)
+You can download image file from [Buster Lite](https://downloads.raspberrypi.org/raspbian_lite_latest)
+
+### Enable SSH Service ###:
+        $sudo systemctl enable ssh
+        $sudo systemctl start ssh
+        
+### Rotate touchscreen ###:
+Setting:
+
+        $sudo vi /boot/config.txt
+Add Line:
+
+        lcd_rotate=2
+        
+        
 
 ### Install kivy for python3 on raspbian:
 1.  Update for raspberry:
