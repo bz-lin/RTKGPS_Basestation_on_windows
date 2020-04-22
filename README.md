@@ -211,7 +211,7 @@ Add the following lines to the [SeatDefaults] section:
 
     
 * * *
-### Install kivy for python3 on Windows10 for Development 
+## Install kivy for python3 on Windows10 for Development 
 1.  Install Anaconda:
 >https://www.anaconda.com/distribution/
 
