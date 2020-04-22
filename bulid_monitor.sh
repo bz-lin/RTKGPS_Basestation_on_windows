@@ -42,8 +42,8 @@
 repo="billz/raspap-webgui"
 branch="master"
 assume_yes=1
-ovpn_option=1
-adblock_option=1
+ovpn_option=0
+adblock_option=0
 
 # Define colors
 readonly ANSI_RED="\033[0;31m"
@@ -170,9 +170,3 @@ else
     source /tmp/raspap_${source}.sh && rm -f /tmp/raspap_${source}.sh
     _install_raspap || _install_status 1 "Unable to install RaspAP"
 fi
-
-
-
-
-
-
