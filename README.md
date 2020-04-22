@@ -1,4 +1,4 @@
-# Setup RTKGPS use ublox neo-m8p-2-11 #
+# Setup BaseStation use ublox neo-m8p-2-11 on Windows10#
 bluid base station and rover with neo-m8p-2-11 moudle, using u-center and rtklib
 * * *
 
