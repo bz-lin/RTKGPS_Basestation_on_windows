@@ -162,7 +162,7 @@ You can follow from [RaspAP](https://raspap.com/)
 2. start_App.sh content:
 
         #!/bin/bash
-        cd /home/pi
+        cd /home/pi/kivyapp
         /usr/bin/python3 /home/pi/kivyapp/main.py
         
 3. Add kivyapp.service for systemd :
