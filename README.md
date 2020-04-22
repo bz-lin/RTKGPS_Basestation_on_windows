@@ -1,5 +1,5 @@
 # Setup BaseStation use ublox neo-m8p-2-11 on Windows
-bluid base station with neo-m8p-2-11 on windows10 by ucenter 
+bluid base station with neo-m8p-2-11 moudle on windows10 by ucenter 
 * * *
 
 
