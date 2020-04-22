@@ -74,17 +74,33 @@ The Base Station is working now
 ### Raspbian stretch install & configure:
 You can download image file from [Buster Lite](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
-### Enable SSH Service ###:
+### Enable SSH Service:
         $sudo systemctl enable ssh
         $sudo systemctl start ssh
         
-### Rotate touchscreen ###:
-Setting:
+### Rotate touchscreen:
+Setting File:
 
         $sudo vi /boot/config.txt
 Add Line:
 
         lcd_rotate=2
+### Install FTP Server:
+FTP server:
+
+        $sudo apt install vsftpd
+
+Setting File:
+
+        $sudo vi /etc/vsftpd.conf
+
+Remove one Line '#':
+
+        #write_enable=Yes
+        write_enable=Yes
+Enable service:
+
+        $sudo systemctl enable vsftpd
         
         
 
