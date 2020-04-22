@@ -86,7 +86,7 @@ Add Line:
 
         lcd_rotate=2
 ### Install FTP Server:
-FTP server:
+>FTP server:
 
         $sudo apt install vsftpd
 
