@@ -79,26 +79,26 @@ You can download image file from [Buster Lite](https://downloads.raspberrypi.org
         $sudo systemctl start ssh
         
 ### Rotate touchscreen:
-Setting File:
+>Setting File:
 
         $sudo vi /boot/config.txt
-Add Line:
+>Add Line:
 
         lcd_rotate=2
 ### Install FTP Server:
->FTP server:
+>Install CMD:
 
         $sudo apt install vsftpd
 
-Setting File:
+>Setting File:
 
         $sudo vi /etc/vsftpd.conf
 
-Remove one Line '#':
+>Remove one Line '#':
 
         #write_enable=Yes
         write_enable=Yes
-Enable service:
+>Enable service:
 
         $sudo systemctl enable vsftpd
 ### Setup raspberry to route AP:
@@ -149,6 +149,56 @@ You can follow from [RaspAP](https://raspap.com/)
     ![image](https://github.com/Bo-Zhang-Lin/RTKGPS/blob/master/picture/rover1.png)
     
     more detail for [kivy](https://github.com/kivy)
+    
+### Auto Start Kivy App on Boot:
+1.  File Location:
+
+        Your start bash file => /home/pi/start_App.sh
+        Your Kivy App => /home/pi/kivyapp/main.py
+        Your systemd File => /lib/systemd/system/kivyapp.service
+        
+2. start_App.sh content:
+
+        #!/bin/bash
+        cd /home/pi
+        /usr/bin/python3 /home/pi/kivyapp/main.py
+        
+3. Add kivyapp.service for systemd :
+>Add kivyapp.service
+        
+        sudo vi /lib/systemd/system/kivyapp.service
+        
+>Add Lines:
+
+        [Unit]
+        Descriptiona=KivyApp Service
+        After=multi-user.target
+
+        [Service]
+        Type=idle
+
+        User=pi        
+        ExecStart=/bin/bash /home/pi/start_App.sh
+
+        Restart=always
+        RestartSec=0
+
+        [Install]
+        WantedBy=multi-user.target
+        
+ >Reload Daemon:
+ 
+        $sudo systemctl daemon-reload
+ 
+ >Enable Service:
+ 
+        $sudo systemctl enable kivyapp.service
+
+>Reboot to Test:
+
+        $sudo reboot
+
+         
 ### Disable screen sleep:
 Change config:
 
